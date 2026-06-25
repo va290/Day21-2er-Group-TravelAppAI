@@ -14,7 +14,9 @@
 
 ## 1. Unit of AI Work (đầu việc AI được đánh giá)
 
-> **Một yêu cầu chuyến đi bằng ngôn ngữ tự nhiên → agent tạo bản nháp _lịch trình 1 ngày khả thi_, HOẶC hỏi thêm constraint nếu thiếu/mơ hồ.**
+> **Một yêu cầu chuyến đi bằng ngôn ngữ tự nhiên → agent tạo bản nháp _lịch trình ngắn ngày (1–3 ngày) khả thi_, HOẶC hỏi thêm constraint nếu thiếu/mơ hồ.**
+>
+> *(Cập nhật pha nhóm: mở rộng từ "1 ngày" → "1–3 ngày" để khớp dữ liệu thực tế của cả hai thành viên. Tính khả thi giờ xét trong phạm vi số ngày user nêu.)*
 
 | Thành phần | Nội dung |
 |---|---|
