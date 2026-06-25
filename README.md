@@ -17,11 +17,10 @@
 | [`00-shared-spine.md`](00-shared-spine.md) | Xương sống chung: Unit of AI Work, quality question, 3 dimension lõi, schema CSV, prompt paraphrase |
 | [`01-report-anh.md`](01-report-anh.md) | **Pha cá nhân của Anh** — Bài 1→5 (grid, combinations, human filter, coverage note) |
 | [`v0_anh.csv`](v0_anh.csv) | **Scenario Dataset v0 của Anh** — 26 user inputs / 13 combinations / 8 thành phố |
-| `reference-for-du/` | Bản nháp AI để **Du tham khảo** (Du sẽ thay bằng dataset tự làm) |
 
 ## Tiến độ
 - [x] Pha cá nhân — **Anh** (v0: 13 combinations, 26 inputs, đa thành phố, cân bằng feasibility–agency)
-- [ ] Pha cá nhân — **Du** (Du tự làm; `reference-for-du/` chỉ để tham khảo)
+- [ ] Pha cá nhân — **Du** (Du tự làm & push riêng)
 - [ ] Pha nhóm — merge → Scenario Dataset **v1** (≥30 rows) + coverage matrix + known gaps + handoff note
 
 ## Schema dataset (đề mục 14, +`city`)
