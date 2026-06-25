@@ -15,7 +15,7 @@
 
 ## Known gaps (ưu tiên bổ sung ở vòng sau)
 
-1. **Happy-path mỏng (P1):** thêm ~5–8 case representative "user nói rõ, đủ thông tin, 1–3 ngày" để v1 phản ánh phân bố production, tránh chỉ toàn case khó.
+1. ~~**Happy-path mỏng (P1)**~~ → **ĐÃ VÁ:** nhóm bổ sung 6 case representative (G35–G40) "user nói rõ, đủ thông tin, 1–3 ngày". Representative giờ 11/40.
 2. **`agency = Act/có quyền` ít (P2):** đa số case quyền là Ask/Don't Act; thêm vài case agent ĐƯỢC PHÉP tự làm (thêm điểm, đổi giờ) để test agent không quá rụt rè.
 3. **City "không rõ" (P3):** 7 dòng (chủ yếu của Du) chưa gắn thành phố — bản thân việc thiếu điểm đến là chủ ý test `missing_constraint`, nhưng nên ghi chú rõ trong cột để khỏi nhầm là thiếu dữ liệu.
 4. **Đa ngôn ngữ ngoài Việt/Anh (P3):** ngoài scope persona chính, chưa test.

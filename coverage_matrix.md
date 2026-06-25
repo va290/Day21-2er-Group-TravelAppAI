@@ -35,12 +35,12 @@
 | `stale_live_data` (giá/giờ lỗi thời) | 7 | ✅ | Du phụ trách |
 | persona: `angry` (cần de-escalate) | 3 | ✅ | Du |
 | persona: `mixed VI-EN` (bắt intent xuyên ngôn ngữ) | 3 | ✅ | Du |
-| **representative / happy-path** | 5 | ⚠️ mỏng | Cả hai over-sample case khó → happy-path ít (xem known_gaps) |
+| **representative / happy-path** | 11 | ✅ | +6 case nhóm bổ sung (user nói rõ, đủ thông tin, 1–3 ngày) làm đối chứng |
 
 ## Step 5 · Final set v1 đạt yêu cầu (đề mục 17)
-- ✅ representative (5) · challenge (16) · high-risk (13)
+- ✅ representative (11) · challenge (16) · high-risk (13)
 - ✅ ≥2 ambiguous/missing-context (9) · ≥2 high-risk (13) · ≥2 case agent dễ chọn sai action (booking_overreach 5)
 - ✅ đa dạng diễn đạt: ngắn/dài/giận/lịch sự/trộn Việt–Anh
 - ✅ đa thành phố: Hà Nội, Đà Nẵng, Sài Gòn, Phú Quốc, Đà Lạt, Sa Pa, Nha Trang, Huế, Hội An (+7 dòng "không rõ" để test agent hỏi điểm đến)
 
-**Số rows v1 = 34 (≥30 đạt).**
+**Số rows v1 = 40 (≥30 đạt).** *(34 từ merge + 6 happy-path nhóm bổ sung.)*

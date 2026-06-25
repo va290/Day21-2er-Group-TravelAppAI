@@ -18,14 +18,14 @@
 | [`01-report-anh.md`](01-report-anh.md) | **Pha cá nhân của Anh** — Bài 1→5 (grid, combinations, human filter, coverage note) |
 | [`v0_anh.csv`](v0_anh.csv) | Scenario Dataset v0 của **Anh** — 26 inputs / 13 combos / 8 thành phố |
 | [`02-report-du.md`](02-report-du.md) · [`v0_du.csv`](v0_du.csv) | Scenario Dataset v0 của **Du** — 22 inputs / 12 combos |
-| ⭐ [`scenario_dataset_v1.csv`](scenario_dataset_v1.csv) | **Bộ chung v1 — 34 rows** (đã merge + dedup) |
+| ⭐ [`scenario_dataset_v1.csv`](scenario_dataset_v1.csv) | **Bộ chung v1 — 40 rows** (đã merge + dedup) |
 | [`coverage_matrix.md`](coverage_matrix.md) | Chuẩn hóa dimension · dedup · coverage theo 6 lỗi taxonomy |
 | [`known_gaps.md`](known_gaps.md) · [`handoff_note.md`](handoff_note.md) | Gap còn thiếu + bàn giao cho bước chạy agent |
 
 ## Tiến độ — HOÀN TẤT
 - [x] Pha cá nhân — **Anh** (v0: 13 combos / 26 inputs, đa thành phố, cân bằng feasibility–agency)
 - [x] Pha cá nhân — **Du** (v0: 12 combos / 22 inputs, mơ hồ/stale/persona)
-- [x] Pha nhóm — **Scenario Dataset v1 = 34 rows** (≥30 ✅) + coverage matrix + known gaps + handoff note
+- [x] Pha nhóm — **Scenario Dataset v1 = 40 rows** (≥30 ✅) + coverage matrix + known gaps + handoff note
 - [x] Mở rộng Unit of AI Work → **lịch 1–3 ngày** (khớp dữ liệu cả hai)
 
 ## Schema dataset (đề mục 14, +`city`)
